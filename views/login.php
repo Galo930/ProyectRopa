@@ -19,6 +19,9 @@
         <label>Contraseña:</label><br>
         <input type="password" name="password" required><br><br>
         
+        <label>
+            <input type="checkbox" name="remember"> Recuérdame
+        </label><br><br>
         <button type="submit">Entrar</button>
     </form>
     <br>
