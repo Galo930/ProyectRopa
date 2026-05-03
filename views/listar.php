@@ -34,7 +34,9 @@
                 <th>Talla Numerica</th>
                 <th>Largo</th>
                 <th>Estilo</th>
+            <?php if (isset($_SESSION['usuario_id'])): ?>
                 <th>Acciones</th>
+            <?php endif; ?>
 
             </tr>
         </thead>
